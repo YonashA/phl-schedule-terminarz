@@ -20,6 +20,8 @@ For all ice hockey fans in Poland (where hockey is not getting the right "prime 
 
 Using web scraping technique with Beautiful Soup and iCalendar library to get the latest schedule for the 2022/2023 season and generate a .ics file with all already fixed games for a selected team. 
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YonashA&layout=compact&theme=github_dark)](https://github.com/YonashA/phl-schedule-terminarz)
+
 <strong><i>How:</i></strong><br>
 Use test_plh.py file to run Python code, generate a list of all available teams in the polish league for the 2022/2023 season (using web scraping) and ask users for a choice of their favorite team.
 
@@ -32,7 +34,6 @@ Generates (using web scraping) and saves .ics file for all games where the selec
 Calendar events consist of the title (home vs. away team), location, date, and time. 
 
 ![image](https://user-images.githubusercontent.com/97128701/188428141-ddd493f1-96ca-4d23-ab6e-cde4756a5080.png)
-
 
 <hr>
 Note:
