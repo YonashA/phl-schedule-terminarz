@@ -16,9 +16,9 @@ Using web scraping (Beautiful Soup) to generate favorite polish hockey team cale
 </p>
 
 <strong><i>Why:</i></strong><br>
-As an ice hockey fan in Poland (where I believe hockey is not getting the right "prime time"), and a well-organized person, I would like to have all games of my favorite team on my phone (iMac, iPad) calendar, to know when is the next game, where, against which team, and get a reminder directly on my phone. This feature is currently not available to get online anywhere. 
+For all ice hockey fans in Poland (where hockey is not getting the right "prime time"), to have all games of their favorite team on the phone calendar (or pc, tablet), and to know when is the next game, at which location, against which team, together with a direct reminder. This feature is currently not available online to get anywhere.
 
-As a learning curve, being a Python enthusiast, I used the web scraping technique with Beautiful Soup and iCalendar library to get the latest schedule for the 2022/2023 season and generate a .ics file with all already fixed games for a selected team. 
+Using web scraping technique with Beautiful Soup and iCalendar library to get the latest schedule for the 2022/2023 season and generate a .ics file with all already fixed games for a selected team. 
 
 <strong><i>How:</i></strong><br>
 Use test_plh.py file to run Python code, generate a list of all available teams in the polish league for the 2022/2023 season (using web scraping) and ask users for a choice of their favorite team.
@@ -37,6 +37,8 @@ Calendar events consist of the title (home vs. away team), location, date, and t
 <hr>
 Note:
 <ul>
+<li>This is a personal project for the Python practice
+</li>
 <li>The schedule is generated as per the 5th Sep 2022 status of the PLH schedule only for 2 rounds (total of 144 games, where the schedule is confirmed)</li>
-<li>The program does not generate calendar subscription, hence any further changes to the fixtures (dates, timing, game cancellation, etc.) are not updated</li>
+<li>The program does not generate a calendar subscription, hence any further changes to the fixtures (dates, timing, game cancellation, etc.) are not updated</li>
 </ul>
