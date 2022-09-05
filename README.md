@@ -1,5 +1,5 @@
 # Favorite Polish Hockey Team 2022 calendar events generator (.ics) in Python
-Using web scraping (Beautiful Soup) to generate favorite polish hockey team calendar events (.ics) in Python for season 2022/2023. Adding all already scheduled games to phone, tablet, and computer as Events in Calendar app.
+Web scrape to generate polish hockey team calendar events (.ics)
 
 <br>
 
