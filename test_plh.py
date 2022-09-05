@@ -85,7 +85,6 @@ for i in range(number_of_games):
     e.add('dtend', datetime(year=int(selected_games[i][0][0].split("-")[0]), month=int(selected_games[i][0][0].split("-")[1]), day=int(selected_games[i][0][0].split("-")[2]), hour=int(selected_games[i][0][1].split(":")[0])+2, minute=int(selected_games[i][0][1].split(":")[1]), second=0, tzinfo=pytz.timezone("Europe/Warsaw")) )
     e.add('location', selected_games[i][3] )
     c.add_component(e)
-
     f = open(f'Terminarz {team_name}.ics', 'wb')
     f.write(c.to_ical())
 f.close()
