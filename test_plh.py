@@ -74,7 +74,7 @@ for i in range(len(game_teams)):
 c = Calendar()
 # Mandatory fields for iCalendar
 c.add('prodid', '-//Terminarz PHL 2022//example.com//')
-c.add('version', '1.0')
+c.add('version', '2.0')
 
 # Adding events (selected team games) to calendar
 for i in range(number_of_games):
